@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="logo">
+           <a class="logo-link" href="#"> <img src="images\logo2.png" alt="Logo" height="50px" width="50px">
+        </a>
+
+        <div class="title">
+           <h1>Expense Tracker</h1>
+
+        </div>
+        </div>
+    </nav>
+     <!-- hero-section -->
+
+
+    <div class="hero">
+        
+<!-- 
+        <div class="hero-bg">
+            <img src="images\bg.png" alt="background">
+        </div> -->
+        <div class="status">
+
+            <div class="net-dep">
+                <img src="images\net dep.png" height="40px" width="40px">
+             <h2>Total Deposited &colon; <br> 0.00&dollar;</h2>
+            </div>
+            <div class="net-wit">
+                <img src="images/net wit.png" height="40px" width="40px">
+                <h2>Total Withdrawn &colon; <br> 0.00&dollar;</h2>
+
+            </div>
+
+            <div class="net-bal">
+                <img src="images\net bal.png" height="40px" width="40px">
+             <h2> Available Balance &colon; <br> 0.00&dollar;</h2>
+            </div>
+
+        </div>
+       <div class="container">
+
+        <!-- <div class="toggle-buttons">
+            <button onclick="toggleSection('deposit')" class="toggle-btn deposit-btn active">Deposit</button>
+            <button onclick="toggleSection('withdraw')" class="toggle-btn withdraw-btn">Withdraw</button>
+        </div> -->
+        
+        
+        <div class="deposit">
+            <img src="images\deposit.gif" alt="Deposit" height="40px" width="40px">
+
+            <h2 class="d">Deposit</h2>
+            <p>Enter your amount here</p>
+
+            <form  class="dep">
+                <input type="number" placeholder="Enter Amount"  required>
+                <button class="green">Confirm Deposit</button>
+                
+            </form>
+        </div>
+            <div class="withdraw">
+                <img src="images\withdraw.gif" alt="Deposit" height="40px" width="40px">
+
+                <h2 class="w">Withdraw</h2>
+                <p>Enter your amount here</p>
+                <form  class="with">
+                    
+                    <input type="number" placeholder="Enter Amount" >
+                    
+                    <button class="red">Confirm Withdraw</button>
+                </form>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
